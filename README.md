@@ -8,6 +8,8 @@ C'est une application angular 6 elle regroupe ces fonctionalités:
 * l'authentification
 * l'api crée a l'aide du node (json-server)
 * Bootstrap
+* les services
+* les formulaires (template driven form)
 
 ## Development server
 
