@@ -11,6 +11,10 @@ C'est une application angular 6 elle regroupe ces fonctionalités:
 * les services
 * les formulaires (template driven form)
 
+## Demarer l'api
+
+json-server --watch db.json
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
