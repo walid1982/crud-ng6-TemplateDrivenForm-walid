@@ -2,6 +2,13 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0.
 
+C'est une application angular 6 elle regroupe ces fonctionalités:
+* les cruds (add, edit, delete, get)
+* les filtres recherche avec les pipes
+* l'authentification
+* l'api crée a l'aide du node (json-server)
+* Bootstrap
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
