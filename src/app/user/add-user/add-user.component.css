@@ -1,0 +1,13 @@
+.form-control.ng-valid{
+    border: 1px solid #11c13f;
+    box-shadow:2px 1px 8px 0.2px #11c13f;
+}
+.bloc-center{
+    margin: 0 auto;
+    position: relative;
+}
+.logout {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}

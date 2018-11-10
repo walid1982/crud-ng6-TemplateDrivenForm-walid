@@ -1,0 +1,9 @@
+.bloc-center{
+    margin: 0 auto;
+    position: relative;
+}
+.logout {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}

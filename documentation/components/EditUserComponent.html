@@ -1,0 +1,745 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>angular6-example documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	      <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">angular6-example documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li>EditUserComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#styleData" role="tab" id="styleData-tab" data-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/user/edit-user/edit-user.component.ts</code>
+</p>
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-edit-user</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./edit-user.component.css</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./edit-user.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#logged">logged</a>
+                            </li>
+                            <li>
+                                <a href="#user">user</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#LogOut">LogOut</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnInit">ngOnInit</a>
+                            </li>
+                            <li>
+                                <a href="#onSubmitUser">onSubmitUser</a>
+                            </li>
+                            <li>
+                                <a href="#statusUser">statusUser</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(router: <a href="https://angular.io/api/router/Router" target="_blank">Router</a>, $UserService: <a href="../injectables/UserService.html">UserService</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="17" class="link-to-prism">src/app/user/edit-user/edit-user.component.ts:17</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>router</td>
+                                                  
+                                                        <td>
+                                                                    <code><a href="https://angular.io/api/router/Router" target="_blank" >Router</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>$UserService</td>
+                                                  
+                                                        <td>
+                                                                    <code><a href="../injectables/UserService.html" target="_self" >UserService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+
+
+    <section>
+    
+        <h3 id="methods">
+            Methods
+        </h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="LogOut"></a>
+                        <span class="name">
+                            <b>
+                            LogOut
+                            </b>
+                            <a href="#LogOut"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>LogOut()</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="63" class="link-to-prism">src/app/user/edit-user/edit-user.component.ts:63</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="ngOnInit"></a>
+                        <span class="name">
+                            <b>
+                            ngOnInit
+                            </b>
+                            <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>ngOnInit()</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="19" class="link-to-prism">src/app/user/edit-user/edit-user.component.ts:19</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="onSubmitUser"></a>
+                        <span class="name">
+                            <b>
+                            onSubmitUser
+                            </b>
+                            <a href="#onSubmitUser"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>onSubmitUser(user: <a href="../classes/User.html">User</a>)</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="40" class="link-to-prism">src/app/user/edit-user/edit-user.component.ts:40</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+
+                            <div class="io-description">
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>user</td>
+                                                        <td>
+                                                                    <code><a href="../classes/User.html" target="_self" >User</a></code>
+                                                        </td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                            <div>
+                            </div>
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                                <div class="io-description">
+                                    
+                                </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="statusUser"></a>
+                        <span class="name">
+                            <b>
+                            statusUser
+                            </b>
+                            <a href="#statusUser"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>statusUser()</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="51" class="link-to-prism">src/app/user/edit-user/edit-user.component.ts:51</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+    <section>
+    
+        <h3 id="inputs">
+            Properties
+        </h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="logged"></a>
+                        <span class="name">
+                            <b>
+                            logged
+                            </b>
+                            <a href="#logged"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>logged:     <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="17" class="link-to-prism">src/app/user/edit-user/edit-user.component.ts:17</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="user"></a>
+                        <span class="name">
+                            <b>
+                            user
+                            </b>
+                            <a href="#user"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>user:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>new User()</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="16" class="link-to-prism">src/app/user/edit-user/edit-user.component.ts:16</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, OnInit } from &quot;@angular/core&quot;;
+import { Router } from &quot;@angular/router&quot;;
+// import { FormsModule, NgForm } from &quot;@angular/forms&quot;;
+
+import { UserService } from &quot;../../services/user.service&quot;;
+import { User } from &quot;../model/user.model&quot;;
+//For template driven form
+//import { User } from &quot;../interface/user.interface&quot;;
+
+@Component({
+  selector: &quot;app-edit-user&quot;,
+  templateUrl: &quot;./edit-user.component.html&quot;,
+  styleUrls: [&quot;./edit-user.component.css&quot;]
+})
+export class EditUserComponent implements OnInit {
+  user &#x3D; new User();
+  logged: boolean;
+  constructor(private router: Router, private $UserService: UserService) {}
+  ngOnInit() {
+    let userId &#x3D; sessionStorage.getItem(&quot;editUserId&quot;);
+    if (!userId) {
+      this.router.navigate([&quot;list-user&quot;]);
+      return;
+    }
+    this.user &#x3D; {
+      id: this.user.id,
+      email: this.user.email,
+      firstName: this.user.firstName,
+      lastName: this.user.lastName,
+      login:this.user.login,
+      password:this.user.password,
+    };
+
+    this.$UserService.getUserById(+userId).subscribe(data &#x3D;&gt; {
+      console.log((this.user &#x3D; data));
+    });
+    this.statusUser();
+  }
+
+  onSubmitUser(user:User): void {
+    this.$UserService.UpdateUser(this.user).subscribe(
+      data &#x3D;&gt; {      
+        console.log((this.user &#x3D; data));
+        this.router.navigate([&quot;list-user&quot;]);
+      },
+      error &#x3D;&gt; {
+        alert(error);
+      }
+    );
+  }
+  statusUser(){  
+    let $currentlogin &#x3D; sessionStorage.getItem(&#x27;currentlogin&#x27;);
+    let $currentpwd &#x3D; sessionStorage.getItem(&#x27;currentpwd&#x27;);
+    if($currentlogin &amp;&amp; $currentpwd){
+      console.log(&#x27;je suis connecté&#x27;, this.logged &#x3D; true);
+    }
+    else{
+      this.router.navigate([&quot;login&quot;]);
+      console.log(&#x27;je suis deconnecté&#x27;);
+     
+    }
+  }
+  LogOut(): void {
+    sessionStorage.clear();
+    this.router.navigate([&quot;login&quot;]);
+  }
+  
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;!--methode Template driven form--&gt;
+&lt;div class&#x3D;&quot;col-md-6 bloc-center&quot;&gt;
+  &lt;h2 class&#x3D;&quot;text-center&quot;&gt;Add User&lt;/h2&gt;
+  &lt;button _ngcontent-c1&#x3D;&quot;&quot; class&#x3D;&quot;btn btn-warning logout&quot; (click)&#x3D;&quot;LogOut()&quot;&gt; logout&lt;/button&gt;
+  &lt;form #editForm&#x3D;&quot;ngForm&quot; (ngSubmit)&#x3D;&quot;onSubmitUser()&quot;&gt;
+    &lt;div class&#x3D;&quot;form-group&quot;&gt;
+      &lt;label for&#x3D;&quot;email&quot;&gt;Email address:&lt;/label&gt;
+      &lt;input type&#x3D;&quot;email&quot; placeholder&#x3D;&quot;Email&quot; name&#x3D;&quot;email&quot; class&#x3D;&quot;form-control&quot; id&#x3D;&quot;email&quot; [(ngModel)]&#x3D;&quot;user.email&quot; required #email&#x3D;&quot;ngModel&quot;&gt;
+      &lt;div *ngIf&#x3D;&quot;email.errors &amp;&amp; (email.dirty || email.touched)&quot; class&#x3D;&quot;alert alert-danger&quot;&gt;
+        &lt;div [hidden]&#x3D;&quot;!email.errors.required&quot;&gt;
+          Email is required
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class&#x3D;&quot;form-group&quot;&gt;
+      &lt;label for&#x3D;&quot;firstName&quot;&gt;First Name:&lt;/label&gt;
+      &lt;input placeholder&#x3D;&quot;First Name&quot; name&#x3D;&quot;firstName&quot; class&#x3D;&quot;form-control&quot; id&#x3D;&quot;firstName&quot; [(ngModel)]&#x3D;&quot;user.firstName&quot; required
+        #firstName&#x3D;&quot;ngModel&quot;&gt;
+      &lt;div *ngIf&#x3D;&quot;firstName.errors &amp;&amp; (firstName.dirty || firstName.touched)&quot; class&#x3D;&quot;alert alert-danger&quot;&gt;
+        &lt;div [hidden]&#x3D;&quot;!firstName.errors.required&quot;&gt;
+          firstName is required
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class&#x3D;&quot;form-group&quot;&gt;
+      &lt;label for&#x3D;&quot;lastName&quot;&gt;Last Name:&lt;/label&gt;
+      &lt;input placeholder&#x3D;&quot;Last name&quot; name&#x3D;&quot;lastName&quot; class&#x3D;&quot;form-control&quot; id&#x3D;&quot;lastName&quot; [(ngModel)]&#x3D;&quot;user.lastName&quot; required #lastName&#x3D;&quot;ngModel&quot;&gt;
+      &lt;div *ngIf&#x3D;&quot;lastName.errors &amp;&amp; (lastName.dirty || lastName.touched)&quot; class&#x3D;&quot;alert alert-danger&quot;&gt;
+        &lt;div [hidden]&#x3D;&quot;!lastName.errors.required&quot;&gt;
+          lastName is required
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class&#x3D;&quot;form-group&quot;&gt;
+      &lt;label for&#x3D;&quot;login&quot;&gt;Login:&lt;/label&gt;
+      &lt;input placeholder&#x3D;&quot;login&quot; name&#x3D;&quot;login&quot; class&#x3D;&quot;form-control&quot; id&#x3D;&quot;login&quot; [(ngModel)]&#x3D;&quot;user.login&quot; required #login&#x3D;&quot;ngModel&quot;&gt;
+      &lt;div *ngIf&#x3D;&quot;login.errors &amp;&amp; (login.dirty || login.touched)&quot; class&#x3D;&quot;alert alert-danger&quot;&gt;
+        &lt;div [hidden]&#x3D;&quot;!login.errors.required&quot;&gt;
+          login is required
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class&#x3D;&quot;form-group&quot;&gt;
+      &lt;label for&#x3D;&quot;password&quot;&gt;Mot de passe:&lt;/label&gt;
+      &lt;input placeholder&#x3D;&quot;password&quot; name&#x3D;&quot;password&quot; class&#x3D;&quot;form-control&quot; id&#x3D;&quot;password&quot; [(ngModel)]&#x3D;&quot;user.password&quot; type&#x3D;&quot;password&quot;  #password&#x3D;&quot;ngModel&quot;&gt;
+      &lt;div *ngIf&#x3D;&quot;password.errors &amp;&amp; (password.dirty || password.touched)&quot; class&#x3D;&quot;alert alert-danger&quot;&gt;
+        &lt;div [hidden]&#x3D;&quot;!password.errors.required&quot;&gt;
+          password is required
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;button class&#x3D;&quot;btn btn-danger&quot; type&#x3D;&quot;reset&quot;&gt;Reset&lt;/button&gt;
+    &lt;span style&#x3D;&quot;color:#fff&quot;&gt;..&lt;/span&gt;
+    &lt;button class&#x3D;&quot;btn btn-success&quot; [disabled]&#x3D;&quot;!editForm.valid&quot;&gt;Update&lt;/button&gt;
+  &lt;/form&gt;
+&lt;/div&gt;</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-styleData">
+                <p class="comment">
+                    <code>./edit-user.component.css</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss">.bloc-center{
+    margin: 0 auto;
+    position: relative;
+}
+.logout {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><!--methode Template driven form--><div class="col-md-6 bloc-center">  <h2 class="text-center">Add User</h2>  <button _ngcontent-c1="" class="btn btn-warning logout" (click)="LogOut()"> logout</button>  <form #editForm="ngForm" (ngSubmit)="onSubmitUser()">    <div class="form-group">      <label for="email">Email address:</label>      <input type="email" placeholder="Email" name="email" class="form-control" id="email" [(ngModel)]="user.email" required #email="ngModel">      <div *ngIf="email.errors && (email.dirty || email.touched)" class="alert alert-danger">        <div [hidden]="!email.errors.required">          Email is required        </div>      </div>    </div>    <div class="form-group">      <label for="firstName">First Name:</label>      <input placeholder="First Name" name="firstName" class="form-control" id="firstName" [(ngModel)]="user.firstName" required        #firstName="ngModel">      <div *ngIf="firstName.errors && (firstName.dirty || firstName.touched)" class="alert alert-danger">        <div [hidden]="!firstName.errors.required">          firstName is required        </div>      </div>    </div>    <div class="form-group">      <label for="lastName">Last Name:</label>      <input placeholder="Last name" name="lastName" class="form-control" id="lastName" [(ngModel)]="user.lastName" required #lastName="ngModel">      <div *ngIf="lastName.errors && (lastName.dirty || lastName.touched)" class="alert alert-danger">        <div [hidden]="!lastName.errors.required">          lastName is required        </div>      </div>    </div>    <div class="form-group">      <label for="login">Login:</label>      <input placeholder="login" name="login" class="form-control" id="login" [(ngModel)]="user.login" required #login="ngModel">      <div *ngIf="login.errors && (login.dirty || login.touched)" class="alert alert-danger">        <div [hidden]="!login.errors.required">          login is required        </div>      </div>    </div>    <div class="form-group">      <label for="password">Mot de passe:</label>      <input placeholder="password" name="password" class="form-control" id="password" [(ngModel)]="user.password" type="password"  #password="ngModel">      <div *ngIf="password.errors && (password.dirty || password.touched)" class="alert alert-danger">        <div [hidden]="!password.errors.required">          password is required        </div>      </div>    </div>    <button class="btn btn-danger" type="reset">Reset</button>    <span style="color:#fff">..</span>    <button class="btn btn-success" [disabled]="!editForm.valid">Update</button>  </form></div></div>'
+    var COMPONENTS = [{'name': 'AddUserComponent', 'selector': 'app-add-user'},{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'EditUserComponent', 'selector': 'app-edit-user'},{'name': 'ListUserComponent', 'selector': 'app-list-user'},{'name': 'LoginComponent', 'selector': 'app-login'}];
+    var DIRECTIVES = [];
+    var ACTUAL_COMPONENT = {'name': 'EditUserComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> result-matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'EditUserComponent.html';
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+       <!-- Required to polyfill modern browsers as code is ES5 for IE... -->
+       <script src="../js/libs/custom-elements-es5-adapter.js" charset="utf-8" defer></script>
+       <script src="../js/menu-wc.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

@@ -1,0 +1,42 @@
+<div class="container">
+  <div class="col-md-12 bloc-liste">
+    <h2> User Details</h2>
+    <button class="btn btn-danger" (click)="addUser()"> Add User</button>
+    <button _ngcontent-c1="" class="btn btn-warning logout" (click)="LogOut()"> logout</button>
+    <table class="table tab-recherche">
+      <tr>
+        <th><input type="text" placeholder="recherche" [(ngModel)]="searchUserByEemail" ></th><button disabled>Find User</button>
+      </tr>
+    </table>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th class="hidden">Id</th>
+          <th>FirstName</th>
+          <th>LastName</th>
+          <th>Email</th>
+          <th>Edit</th>
+          <th> Delete</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let user of users | searchUser: searchUserByEemail | paginate: { itemsPerPage: 10, currentPage: p }; let i = index">
+          <td class="hidden">{{user.id}}</td>
+          <td>{{user.firstName}}</td>
+          <td>{{user.lastName}}</td>
+          <td>{{user.email}}</td>
+
+          <td> <button class="btn btn-warning" (click)="editUser(user)" style="margin-left: 20px;"> Edit</button>
+          </td>
+          <td>
+            <button class="btn btn-danger" (click)="removeUser(user)"> Delete</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="pagination">
+      <pagination-controls (pageChange)="p = $event" class="paginationTable"></pagination-controls>
+
+    </div>
+  </div>
+</div>

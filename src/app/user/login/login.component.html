@@ -1,0 +1,27 @@
+<!--methode Template driven form-->
+<div class="col-md-6 bloc-center">
+    <h2 class="text-center">Connexion User</h2>
+    <form #loginForm="ngForm" novalidate (ngSubmit)="LogIn()">
+      <div class="form-group">
+        <label for="login">Login:</label>
+        <input placeholder="login" name="login" class="form-control" id="login" [(ngModel)]="user.login" required #login="ngModel">
+        <div *ngIf="login.errors && (login.dirty || login.touched)" class="alert alert-danger">
+          <div [hidden]="!login.errors.required">
+            login is required
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="password">Mot de passe:</label>
+        <input placeholder="password" name="password" class="form-control" id="password" [(ngModel)]="user.password" required #password="ngModel" type="password">
+        <div *ngIf="password.errors && (password.dirty || password.touched)" class="alert alert-danger">
+          <div [hidden]="!password.errors.required">
+            password is required
+          </div>
+        </div>
+      </div>
+      <button class="btn btn-danger" type="reset">Reset</button>
+      <span style="color:#fff">..</span>
+      <button class="btn btn-success" [disabled]="!loginForm.valid">Save</button>
+    </form>
+  </div>
